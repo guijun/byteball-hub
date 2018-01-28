@@ -15,8 +15,8 @@ exports.bSaveJointJson = true;
 exports.bLight = false;
 
 // this is used by wallet vendor only, to redirect bug reports to developers' email
-exports.bug_sink_email = 'admin@hopjoy.cn';
-exports.bugs_from_email = 'bugs@hopjoy.cn';
+exports.bug_sink_email = 'admin@leapjoy.cn';
+exports.bugs_from_email = 'bugs@leapjoy.cn';
 
 exports.HEARTBEAT_TIMEOUT = 300*1000;
 
@@ -56,7 +56,7 @@ exports.initial_witnesses = [
 */
 
 exports.initial_peers = [
-	'wss://byteball.org/bb'
+	'wss://leapjoy.cn/gaea'
 ];
 
 exports.trustedRegistries = {
