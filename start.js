@@ -1,6 +1,6 @@
 /*jslint node: true */
 "use strict";
-require('byteball-relay');
+require('GAEA-relay');
 var conf = require('./conf');
 var network = require('byteballcore/network');
 var eventBus = require('byteballcore/event_bus.js');
