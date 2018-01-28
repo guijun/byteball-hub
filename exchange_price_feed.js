@@ -17,7 +17,7 @@ function updateBittrexRates(state, onDone) {
 			arrCoinInfos.forEach(coinInfo => {
 				if (!coinInfo.Last)
 					return;
-				if (symbols.includes(coinInfo.MarketName)) {
+				if (symbols.indexOf(coinInfo.MarketName)!=-1) {
 					prices[coinInfo.MarketName] = coinInfo.Last;
 					console.log("new exchange rate: " + coinInfo.MarketName + "=" + coinInfo.Last);
 				}
