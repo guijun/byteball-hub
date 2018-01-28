@@ -1,12 +1,12 @@
 {
-  "name": "byteball-hub",
-  "description": "Byteball Hub",
-  "author": "Byteball",
+  "name": "GAEA-hub",
+  "description": "GAEA Hub",
+  "author": "GAEA",
   "version": "0.1.5",
   "main": "start.js",
   "keywords": [
     "hub",
-    "byteball",
+    "GAEA",
     "messaging",
     "chat"
   ],
@@ -26,7 +26,7 @@
     "secp256k1": "secp256k1/js"
   },
   "dependencies": {
-    "byteball-relay": "git+https://github.com/guijun/byteball-relay.git",
+    "byteball-relay": "git+https://github.com/guijun/byteball-relay.git#0.1.0",
     "request": "^2.81.0"
   }
 }
