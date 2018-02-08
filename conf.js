@@ -56,7 +56,7 @@ exports.initial_witnesses = [
 */
 
 exports.initial_peers = [
-	'wss://leapjoy.cn/gaea'
+	'wss://leapjoy.cn/wsbb'
 ];
 
 exports.trustedRegistries = {
